@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+       <table class="FavTable">
+         <thead>
+           <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+           </tr>
+         </thead>
+           <tr>
+             <td>Elder Kevin G Brown</td>
+             <td>Hastening The Work In You</td>
+             <td>BYU-I</td>
+             <td>2025</td>
+           </tr>
+           <tr>
+             <td>Elder Ulisses Suares Of The Quorum Of The Twelve</td>
+             <td>Drawing Strength From The Saviors Love</td>
+             <td>BYU-I</td>
+             <td>2025</td>
+           </tr>
+           <tr>
+              <td>Elder David P. Homer</td>
+              <td>Choose To Believe</td>
+              <td>BYU-I</td>
+              <td>2025</td>
+           </tr>
+      </table>
+        
+     
+<form>
+    <h3>Let Us Know About Your Favorite Devotional</h3>
+    <label for= "name">Name:</label> 
+    <input type="text" id="name" name="name" required>
+<br>
+    <label for = "FavSpeaker">Who Gave The Devotional</label>
+<br>
+    <textarea type="text" id="FavSpeaker" name="FavSpeaker" rows="1"required></textarea>
+<br>
+    <label for = "FavDevo">Title of Devotional</label>
+<br>
+    <textarea type="text" id="FavDevo" name="FavDevo" rows="1"required></textarea>
+<br>
+     <label for = "Where">Where was the devotional given?</label>
+<br>
+    <textarea type="text" id="Where" name="Where" rows="1"required></textarea>
+<br>
+    <label for = "Year">What Year Did The Devotional Take Place?</label>
+<br>
+    <textarea type="text" id="Year" name="Year" rows="1"required></textarea>
+<br>
+    <button type="submit">Send</button>
+</form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

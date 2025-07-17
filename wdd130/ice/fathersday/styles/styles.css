@@ -1,0 +1,98 @@
+
+body{
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body h1 {
+    text-decoration: underline;
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 4em;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 10px;
+    place-items: center;
+}
+header {
+    grid-row: 1;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 5px solid black;
+}
+header nav{
+    font-size: 20px;
+    gap: 40px;
+    width:100vw
+}
+ul{
+    display: grid;
+}
+li{
+    display: grid;
+}
+#Neckties{
+    grid-column: 1;
+}
+#SillyMug{
+    grid-column: 2;
+}
+#Tools{
+    grid-column: 3;
+}
+#Cards{
+    grid-column: 4;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-row:2;
+}
+main img {
+    grid-column: 2 / 4;
+    grid-row: 2/5;
+    width: 75%;
+    height: 99%;
+    justify-self: center;
+    border: 5px solid black;
+}
+#Food{
+    grid-column: 1;
+    grid-row: 2;
+    border: 5px solid black;
+    justify-self: center;
+}
+#family {
+    grid-column: 1;
+    grid-row: 3;
+    border: 5px solid black;
+    justify-self: center;
+}
+#fun {
+    grid-column: 1;
+    grid-row: 4;
+    border: 5px solid black;
+     justify-self: center;
+}
+#Food p{
+    font-size: 1.5em;
+    justify-self: center;
+}
+#family p{
+    font-size: 1.5em;
+    justify-self: center;
+}
+#fun p{
+    font-size: 1.5em;
+    justify-self: center;
+}
+footer{
+    grid-row: 3;
+    justify-self: left;
+}
